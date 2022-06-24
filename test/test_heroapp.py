@@ -15,5 +15,5 @@ def test_heroapp_container_is_running(host):
 
 def test_heroapp_is_available_on_port_80(host):
     port80 = host.socket ("tcp://0.0.0.0:80")
-    assert = port80.is_listening
+    assert port80.is_listening
     # testen, ob auf tcp://0.0.0.0:80 gehorcht wird
