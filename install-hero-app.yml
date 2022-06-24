@@ -1,4 +1,4 @@
-- hosts: ansible-test-instance
+- hosts: SeMa-ansitest03
   become: true
   tasks:
     - name: add apt key
