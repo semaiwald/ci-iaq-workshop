@@ -26,7 +26,7 @@ Commite und pushe deine Änderung in dein Remote Git Repository.
 [source,shell]
 ----
 git commit -m "change vm name"
-git push --set-upstream origin main
+git push --set-upstream origin exercise-01
 ----
 
 Jetzt ist alles bereit, um den Jenkins Job für dieses Ansible Playbook zu erstellen.
