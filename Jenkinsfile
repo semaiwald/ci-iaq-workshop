@@ -8,6 +8,7 @@ pipeline {
     stages {
         stage('Lint Ansible Playbook') {
             steps {
+               sh 'ansible-lint install-hero-app.yml'
               // ansible lint hinzufügen
             }
         }
