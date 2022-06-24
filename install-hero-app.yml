@@ -1,4 +1,4 @@
-- hosts: SeMa_ansitest01
+- hosts: SeMa-ansitest01
   become: true
   tasks:
     - name: add apt key
